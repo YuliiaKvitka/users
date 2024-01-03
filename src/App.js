@@ -21,7 +21,7 @@ function App() {
       })
       .catch(err => {
         console.warn(err);
-        alert('Ошибка при получении пользователей');
+        alert('Помилка під час отримання користувачів');
       })
       .finally(() => setLoading(false));
   }, []);
